@@ -1,0 +1,66 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /*these next 5 lines are from "csstricks-Perfect Full Page Background Image" 
+  very useful to make image responsive and centered*/
+  background: url(greyhands.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
+
+h1 {
+	font-size: 3rem;
+	color: #ff5500;
+	background: rgba(0,0,0,0.55);
+	border-radius: 200px;
+	border: 0.5px solid #ff5500;
+	padding: 20px 15px; 
+
+}
+
+hr {
+	border-color: #ff5500;
+	border-width: 2px;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 7rem;
+
+}
+
+.btn {
+	/*border-radius is to make the button rounder.
+	font-weight is to make font heavier*/
+	font-weight: 700;
+	border-radius: 300px;
+	/*in this case we just use the css class instead 
+	bootstrap class just to show options available*/
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	/*we use this btn-primary class only to modify colors since btn-primary 
+	is the class we added in html to change the color button (bootstrap btn class)*/
+	background-color: #ff5500;
+	border-color: #ff5500;
+}
+
+
+.btn-primary:hover {
+	background-color: #ff5500;
+	border-color:  #ff5500;
+	border-width: 4px;
+}
+
+/*we use this btn-xl class only to modify sizes, padding etc.since we used btn-xl 
+ class in html to change the size of the button*/
+.btn-xl {
+	padding: 1rem 2rem; 
+}

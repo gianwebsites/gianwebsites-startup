@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <!-- NEXT 2 LINES ARE RESPONSIVE META TAGS. THEY TELL THE BROWSER THAT THIS PAGE SHOULD WORK ON MOBILE DEVICES -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <!-- below: to layout we need wrap everything within the BODY in DIV tag with CONTAINER class. This way we create a container for our layout. Also, to align vertically we use d-flex. MAKE SURE TO TELL D-FLEX WHAT PERCENTAGE WE WANT THE CONTAINER TO COVER THE PAGE  -->
+      <div class="container d-flex align-items-center h-100"> 
+
+        <!-- below: to layout we need to create a DIV tag with ROW class BECAUSE WE WANT OUR Layout in a ROW -->
+        <div class ="row">
+
+            <!-- then we divide our content in sections. for our header h1 we wrap h1 in a HEADER tag with bootstrap class TEXT-CENTER. VERY IMPORTANT: TO CENTER (OR ELSE) ADD HOW MANY COLONMS WE WANT THE ELEMENT TO USE WITH COL-12 -->
+            <header class="text-center col-12">
+              <!-- below, we can use bootstrap to add a class style for uppercase -->
+              <h1 class="text-uppercase"><strong>Gianluca's first startup event! </strong></h1>
+            </header>
+
+            <!-- to distance the elements HEADER and SECTION we create a DIV WITH BUFFER CLASS AND COL-12. we then give it style with CSS -->
+            <div class="buffer col-12"></div>
+
+            <!-- again, we divide contents in sections because later on we want to display different contents in different positions. So for HR and BUTTON we wrap everything in a SECTION tag . VERY IMPORTANT: TO CENTER (OR ELSE) ADD HOW MANY COLONMS WE WANT THE ELEMENT TO USE WITH COL-12 -->
+            <section class="text-center col-12">
+            <hr>
+            <!-- also below, we can use bootstrap to add a class style for buttons. NOTE: The btn-xl class is to add CSS styles -->
+             <a href="https://mailchi.mp/9773d5be04ea/gianwebsites"><button class="btn btn-primary btn-xl">Find Out More</button></a> 
+          </section>
+        </div>
+      </div>   
+  </body>
+</html>
