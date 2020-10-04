@@ -16,16 +16,16 @@ html {
 
 h1 {
 	font-size: 3rem;
-	color: #ff5500;
+	color: #ff5309;
 	background: rgba(0,0,0,0.55);
 	border-radius: 200px;
-	border: 0.5px solid #ff5500;
+	border: 0.5px solid #ff5309;
 	padding: 20px 15px;
 
 }
 
 hr {
-	border-color: #ff5500;
+	border-color: #ff5309;
 	border-width: 2px;
 	max-width: 65px;
 }
@@ -48,14 +48,14 @@ hr {
 .btn-primary {
 	/*we use this btn-primary class only to modify colors since btn-primary 
 	is the class we added in html to change the color button (bootstrap btn class)*/
-	background-color: #ff5500;
-	border-color: #ff5500;
+	background-color: #ff5309;
+	border-color: #ff5309;
 }
 
 
 .btn-primary:hover {
-	background-color: #ff5500;
-	border-color:  #ff5500;
+	background-color: #ff5309;
+	border-color:  #ff5309;
 	border-width: 4px;
 }
 
