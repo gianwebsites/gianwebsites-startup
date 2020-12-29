@@ -1,0 +1,19 @@
+{
+  "name": "gianwebsites-startup",
+  "version": "1.0.0",
+  "description": "https://gianwebsites.github.io/gianwebsites-startup/.\r landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gianwebsites/gianwebsites-startup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gianwebsites/gianwebsites-startup"
+  },
+  "homepage": "https://github.com/gianwebsites/gianwebsites-startup#readme"
+}
