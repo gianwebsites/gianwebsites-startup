@@ -6,7 +6,7 @@ html {
 
   /*these next 5 lines are from "csstricks-Perfect Full Page Background Image" 
   very useful to make image responsive and centered*/
-  background: url(coding.jpg) no-repeat center center fixed; 
+  background: url(working-at-night.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,12 +15,21 @@ html {
 
 
 h1 {
-	font-size: 3rem;
+	font-size: 3.5rem;
+	font-style: italic;
 	color: #ff5309;
-	background: rgba(0,0,0,0.70);
-	border-radius: 200px;
-	border: 0.5px solid #ff5309;
-	padding: 20px 15px;
+	background: rgba(0,0,0,0.60);
+	border-radius: 90px;
+	border: 0.3px solid #ff5309;
+	padding: .5rem .5rem;
+	margin-left: 2em;
+	margin-right: 2em;
+
+}
+
+.bufferLogo {
+
+	height: 4rem;
 
 }
 
@@ -31,7 +40,7 @@ hr {
 }
 
 .buffer {
-	height: 8rem;
+	height: 3rem;
 
 }
 
@@ -40,18 +49,24 @@ hr {
 	/*border-radius is to make the button rounder.
 	font-weight is to make font heavier*/
 	font-weight: 700;
-	border-radius: 300px;
+	border-radius: 90px;
 	/*in this case we just use the css class instead 
 	bootstrap class just to show options available*/
 	text-transform: uppercase;
 }
 
+.btn:focus {
+    outline: none; !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
 
 .btn-primary {
 	/*we use this btn-primary class only to modify colors since btn-primary 
 	is the class we added in html to change the color button (bootstrap btn class)*/
 	background-color: #ff5309;
-	border-color: #ff5309;
+	border-color: #ffffff;
 	transform: all;
 
 }
@@ -65,12 +80,13 @@ hr {
 	border-width: 4px;
 }
 
-button:focus:after {
-    outline: none !important;
-}
 
 /*we use this btn-xl class only to modify sizes, padding etc.since we used btn-xl 
  class in html to change the size of the button*/
 .btn-xl {
-	padding: 1rem 2rem; 
+	padding: 2.5rem 3.5rem; 
+}
+
+.button {
+	margin-bottom: 5rem;
 }
