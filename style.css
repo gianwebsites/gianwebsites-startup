@@ -6,7 +6,7 @@ html {
 
   /*these next 5 lines are from "csstricks-Perfect Full Page Background Image" 
   very useful to make image responsive and centered*/
-  background: url(working-at-night.jpg) no-repeat center center fixed; 
+  background: url(./assets/working-at-night.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
